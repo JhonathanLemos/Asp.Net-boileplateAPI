@@ -1,0 +1,88 @@
+@import '~vuetify/src/styles/tools/_functions.sass';
+
+$myApi-purple: (
+  ) !default;
+$myApi-purple: map-deep-merge(('base': purple,
+    ),
+    $myApi-purple
+);
+
+$myApi-yellow: (
+  ) !default;
+$myApi-yellow: map-deep-merge(('base': #F7D002,
+      'var-1': #FEE066,
+    ),
+    $myApi-yellow
+);
+
+$myApi-neutral: (
+  ) !default;
+$myApi-neutral: map-deep-merge(('base': #151515,
+      'var-1': #434343,
+      'var-2': #747474,
+      'var-3': #A9A9A9,
+      'var-4': #E1E1E1,
+      'var-5': #F5F5F5,
+    ),
+    $myApi-neutral
+);
+
+$colors: (
+  ) !default;
+$colors: map-deep-merge(('myApi-purple': $myApi-purple,
+      'myApi-yellow': $myApi-yellow,
+      'myApi-neutral': $myApi-neutral ),
+    $colors
+);
+
+$body-font-family: 'Inter', sans-serif !default;
+
+h1{
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: $body-font-family;
+  color: inherit;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: $body-font-family;
+  color: inherit;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: $body-font-family;
+  color: inherit;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: $body-font-family;
+  color: inherit;
+}
+
+$btn-toggle-btn-opacity: 1 !default;
+
+$icon-outlined-border-width: 2px !default;
+
+$navigation-drawer-border-width: 0px !default;
+
+$data-table-regular-header-font-size: 14px !default;
+
+$text-field-dense-padding: 2px 0 1px !default;
+
+$radio-group-padding: 0px !default;
+
+tbody :hover {
+  background-color: #f3eaf4 !important;
+}
+
+.v-data-table-header {
+  background-color: #f3eaf4;
+  height: 50px !important;
+  border-radius: 10px !important;
+}

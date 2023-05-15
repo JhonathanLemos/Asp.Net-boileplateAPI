@@ -1,0 +1,42 @@
+{
+    "blocos": [
+      {
+        "name": "Conteúdos",
+        "itens": [
+          {
+              "icon": "mdi-account-multiple",
+              "name": "Usuários",
+              "router": "ViewUsuarios",
+              "params": {
+                  "tituloView": "Usuários",
+                  "btnInclude": "true",
+                  "pesquisar": "true",
+                  "filtro": "false"
+              }
+          },
+          {
+            "icon": "mdi-account-group",
+            "name": "Clientes",
+            "router": "ViewClientes",
+            "params": {
+                "tituloView": "Clientes",
+                "btnInclude": "true",
+                "pesquisar": "true",
+                "filtro": "false"
+            }
+        },
+        {
+          "icon": "mdi-plus-thick",
+          "name": "Produtos",
+          "router": "ViewProdutos",
+          "params": {
+              "tituloView": "Produtos",
+              "btnInclude": "true",
+              "pesquisar": "true",
+              "filtro": "false"
+          }
+      }
+      ]
+    }
+    ]
+}
