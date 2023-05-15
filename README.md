@@ -1,37 +1,45 @@
-# Important
+This API was generated using Asp.Net Boilerplate and Vue.Js
 
-Issues of this repository are tracked on https://github.com/aspnetboilerplate/aspnetboilerplate. Please create your issues on https://github.com/aspnetboilerplate/aspnetboilerplate/issues.
+To start this api follow this steps:
 
-# Introduction
+1 - Open the project folder called "aspnet-core" and click on the "MyApi.sln" file. (Must have downloaded Visual Studio to open)
 
-This is a template to create **ASP.NET Core MVC / Angular** based startup projects for [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents). It has 2 different versions:
+2 - After opening the project click on the solution in Solution Explorer and select "Restore nuget packages"
 
-1. [ASP.NET Core MVC & jQuery](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core) (server rendered multi-page application).
-2. [ASP.NET Core & Angular](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular) (single page application).
- 
-User Interface is based on [AdminLTE theme](https://github.com/ColorlibHQ/AdminLTE).
- 
-# Download
+3 - Click on the project called "MyApi.Web.Host" with the right mouse button and click on "Set as startup project"
 
-Create & download your project from https://aspnetboilerplate.com/Templates
+3 - Open the Package Manager (View -> Other Windows -> Package Manager Console)
 
-# Screenshots
+4 - Set the Default Project to "MyApi.EntityFrameworkCore"
 
-#### Sample Dashboard Page
-![](_screenshots/module-zero-core-template-ui-home.png)
+5 - Write "Update-database" on the console and press enter
 
-#### User Creation Modal
-![](_screenshots/module-zero-core-template-ui-user-create-modal.png)
+6 - Your api is configured, to run click on the green button on the toolbar or press F5
 
-#### Login Page
 
-![](_screenshots/module-zero-core-template-ui-login.png)
+Front-end
 
-# Documentation
+1 - Open "Vue" project in visual studio code
 
-* [ASP.NET Core MVC & jQuery version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core)
-* [ASP.NET Core & Angular  version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular)
+2 - Open a new terminal (Terminal -> new terminal)
 
-# License
+3 - Type "npm i" in the console to install project dependencies
 
-[MIT](LICENSE).
+4 - All done, type "npm run serve" to run the project
+
+
+Necessary technologies
+
+to run the project without any problem it will be necessary to download some technologies:
+
+Sql Server(Use Server name: (localdb)\MSSQLLocalDB  link to download -> https://www.microsoft.com/pt-br/sql-server/sql-server-downloads
+
+NPM and node.js -> https://nodejs.org/en/download
+
+.Net -> https://dotnet.microsoft.com/pt-br/download
+
+Visual Studio -> https://visualstudio.microsoft.com/pt-br/downloads/ (Community)
+
+Visual Studio Code -> https://code.visualstudio.com/download
+
+Vue -> run "npm install vue" on cmd or follow the steps -> https://br.vuejs.org/v2/guide/installation.html
