@@ -2,6 +2,8 @@ This API was generated using Asp.Net Boilerplate and Vue.Js
 
 To start this api follow this steps:
 
+First of all you net to clone this repository on your machine -> https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository
+
 1 - Open the project folder called "aspnet-core" and click on the "MyApi.sln" file. (Must have downloaded Visual Studio to open)
 
 2 - After opening the project click on the solution in Solution Explorer and select "Restore nuget packages"
