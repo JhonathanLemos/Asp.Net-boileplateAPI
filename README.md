@@ -1,5 +1,5 @@
 This API was generated using Asp.Net Boilerplate and Vue.Js
-
+<br>
 To start this api follow this steps:
 
 First of all you net to clone this repository on your machine -> https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository
@@ -18,7 +18,7 @@ First of all you net to clone this repository on your machine -> https://docs.gi
 
 6 - Your api is configured, to run click on the green button on the toolbar or press F5
 
-
+<br>
 Front-end
 
 1 - Open "Vue" project in visual studio code
@@ -29,7 +29,7 @@ Front-end
 
 4 - All done, type "npm run serve" to run the project
 
-
+<br>
 Necessary technologies
 
 to run the project without any problem it will be necessary to download some technologies:
