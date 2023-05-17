@@ -34,7 +34,7 @@ Necessary technologies
 
 to run the project without any problem it will be necessary to download some technologies:
 
-Sql Server(Use Server name: (localdb)\MSSQLLocalDB  link to download -> https://www.microsoft.com/pt-br/sql-server/sql-server-downloads
+Sql Server(Use Server name: (localdb)\MSSQLLocalDB)  link to download -> https://www.microsoft.com/pt-br/sql-server/sql-server-downloads
 
 NPM and node.js -> https://nodejs.org/en/download
 
